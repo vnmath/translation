@@ -1,15 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title('Some Hugginface Features')
-st.code('''
->>>  Classify Text
->>>  Question Answering
->>>  Text Generation
->>>  Named Entity Recognition
->>>  Summarization
->>>  Translation
-''')
+st.title('Translation from English to French')
 
 option = st.selectbox(
     "Select an Option",
